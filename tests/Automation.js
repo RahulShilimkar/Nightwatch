@@ -37,7 +37,7 @@ module.exports = {
     browser.pause(3000);
     browser.click("#form_buttons > input:nth-child(1)");
     browser.pause(3000);
+    browser.pause(1000);
     browser.end();
-    // browser.pause();
   },
 };
